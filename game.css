@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+#main {
+    position: fixed;
+}
+html,
+body {
+    margin: 0
+}
+body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    background: #000
+}
+
+#stage {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #000;
+    height: 100vh
+}

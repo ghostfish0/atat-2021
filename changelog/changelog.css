@@ -1,0 +1,18 @@
+html, body {
+	background: rgb(0 0 0);
+	color: rgb(0, 222, 0);
+	font-family: 'SVN-Determination Sans', monospace;
+}
+.content {
+	color: ghostwhite;
+	margin-top: 3px;
+}
+::-webkit-scrollbar {
+    background-color: #ffff00;
+}
+::-webkit-scrollbar-track {
+    background-color: rgb(24, 24, 24);
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 222, 0);
+}

@@ -1,0 +1,174 @@
+.totopbutton {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 40px;
+    left: 40px;
+    margin-bottom: 30px;
+    float: left;
+    /*background-color: rgb(16 16 16);*/
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'SVN-Determination Sans';
+    font-size: 30px;
+}
+.totopbutton img {
+}
+.totopbutton:hover img {
+}
+#stage {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
+    transform: scale(0.9);
+    margin-top: 15px;
+}
+#stage canvas {
+    margin: 5px 40px;
+    border-radius: 10px;
+}
+#stage .gamedescription {
+    background: rgb(16,16,16);
+    width: 300px;
+    height: 504px;
+    margin: 10px 40px;
+    margin-top: 0;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    /*overflow: scroll;*/
+    /*box-shadow: rgb(240, 46, 170) 0 0 0 10px, rgb(240, 46, 170) 20px 0, rgb(240, 46, 170) -20px 0, rgb(240, 46, 170) 0 20px, rgb(240, 46, 170) 0 -20px;*/
+}
+.gameHeader {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.gameHeader header{
+    font-size: 72px;
+    text-shadow: 0px 4px 0 rgb(240, 46, 170), 0 6px rgb(240, 46, 170), 0 0 10px rgb(240 46 170), 0 10px 10px rgb(240 46 170);
+    letter-spacing: .01em;
+    margin: auto;
+    max-width: 600px;
+}
+.gamedescription {
+    padding-top: 25px;
+}
+.gamedescription header{
+    font-size: 30px;
+    text-shadow: 2px 2px 0 rgb(240, 46, 170);
+    margin-bottom: 0;
+}
+.gamedescription h1 {
+    font-size: 18px;
+    color: red;
+}
+.gamedescription p {
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+.gamedescription span {
+    color: rgb(0 222 222);
+}
+.gamebody {
+    position: static;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    /*background-color: rgb(5 5 5);*/
+}
+#bonkstage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#bonkstage img {
+    image-rendering: pixelated;
+    /*position: absolute;*/
+    width: 230px;
+    height: 230px;
+    position: absolute;
+}
+
+#img1 {
+}
+
+#img2 {
+    visibility: hidden;
+}
+
+audio {
+    display: none;
+}
+
+#catstage {
+    background: rgb(12, 12, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*height: 100%;*/
+    padding: 100px 100px;
+    /*width: 100%;*/
+}
+
+#catstage img {
+    width: 40%;
+    margin-top: 50px;
+}
+
+#catstage::-webkit-scrollbar {
+    background-color: black;
+}
+#catstage::-webkit-scrollbar-thumb {
+    background-color: rgb(240 46 170);
+}
+
+.catbutton {
+    position: fixed;
+    top: 20px;
+
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'SVN-Determination Sans';
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(240 46 170);
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 0 rgb(220, 26, 150), inset 0 -3px rgb(255 100 230);
+}
+
+.catbutton:active {
+    box-shadow: none;
+    transform: translateY(10px);
+}
+.catimg_1 {
+    /*align-self: flex-start;*/
+    border-radius: 5px;
+}
+.catimg_2 {
+    /*align-self: flex-end;*/
+    border-radius: 5px;
+}
